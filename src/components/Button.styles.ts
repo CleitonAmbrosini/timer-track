@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export type ButtonVariants = "primary" | "secondary" | "danger" | "sucess";
+export type ButtonVariants = 'primary' | 'secondary' | 'danger' | 'sucess';
 
 interface ButtonContainerProps {
   variant: ButtonVariants;
